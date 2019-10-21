@@ -20,9 +20,9 @@ public class DedicacionPaciente extends JPanel{
       cbDedicacionPaciente = new CheckboxGroup();
       add(new Checkbox("0. Desempleado", cbDedicacionPaciente, true));
       add(new Checkbox("7. Profesionista independiente", cbDedicacionPaciente, true));
-      add(new Checkbox("1. Jubilado(a) sin pensión", cbDedicacionPaciente, true));
-      add(new Checkbox("8. Patrón(a) jefe(a) o empresario(a)", cbDedicacionPaciente, true));
-      add(new Checkbox("2. Jubilado(a) con pensión", cbDedicacionPaciente, true));
+      add(new Checkbox("1. Jubilado(a) sin pension", cbDedicacionPaciente, true));
+      add(new Checkbox("8. Patron(a) jefe(a) o empresario(a)", cbDedicacionPaciente, true));
+      add(new Checkbox("2. Jubilado(a) con pension", cbDedicacionPaciente, true));
       add(new Checkbox("9. Ama de casa", cbDedicacionPaciente, true));
     }
 

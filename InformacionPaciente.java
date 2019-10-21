@@ -12,18 +12,20 @@ public class InformacionPaciente {
 	int edadPaciente;
 	String callePaciente;
 	String zonaPaciente;
-	String telefonoFijoPaciente;
-	String numeroExteriorPaciente;
+	int telefonoFijoPaciente;
+	int numeroExteriorPaciente;
 	String delegacionMunicipioPaciente;
-	String telefonoMovilPaciente;
+	int telefonoMovilPaciente;
 	int numeroInteriorCasaPaciente;
-	String codigoPostalPaciente;
+	int codigoPostalPaciente;
 	int anosVivendoCasaPaciente;
 	int mesesVivendoCasaPaciente;
 	String estadoOrigenPaciente;
-	int nivelEstudiosPaciente;
+	String nivelEstudiosPaciente;
 	String leePaciente;
 	String escritaPaciente;
 	String dedicacionPaciente;
 	String religionPaciente;
+	String estadoCivil;
+
 }

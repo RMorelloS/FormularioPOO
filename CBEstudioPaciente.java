@@ -7,7 +7,7 @@ import java.text.DateFormat;
 import java.awt.CheckboxGroup;
 import java.awt.Checkbox;
 public class CBEstudioPaciente extends JPanel{
-    static CheckboxGroup cbEstadoCivilPaciente;
+    static CheckboxGroup cbNivelEstudioPaciente;
     static Checkbox cb1;
     static Checkbox cb2;
     static Checkbox cb3;
@@ -50,94 +50,94 @@ public class CBEstudioPaciente extends JPanel{
     static Checkbox cb40;
     static Checkbox cb41;
     static Checkbox cb42;
-    
+
     CBEstudioPaciente(){
       setLayout(new GridLayout(6,7));
-      
-      cbEstadoCivilPaciente = new CheckboxGroup();
-      cb1 = new Checkbox("0", cbEstadoCivilPaciente, true);
+
+      cbNivelEstudioPaciente = new CheckboxGroup();
+      cb1 = new Checkbox("0", cbNivelEstudioPaciente, true);
       add(cb1);
-      cb2 = new Checkbox("0. Casado", cbEstadoCivilPaciente, true);
+      cb2 = new Checkbox("0. Casado", cbNivelEstudioPaciente, true);
       add(cb2);
-      cb3 = new Checkbox("0. Casado", cbEstadoCivilPaciente, true);
+      cb3 = new Checkbox("0. Casado", cbNivelEstudioPaciente, true);
       add(cb3);
-      cb4 = new Checkbox("0. Casado", cbEstadoCivilPaciente, true);
+      cb4 = new Checkbox("0. Casado", cbNivelEstudioPaciente, true);
       add(cb4);
-      cb5 = new Checkbox("0. Casado", cbEstadoCivilPaciente, true);
+      cb5 = new Checkbox("0. Casado", cbNivelEstudioPaciente, true);
       add(cb5);
-      cb6 = new Checkbox("0. Casado", cbEstadoCivilPaciente, true);
+      cb6 = new Checkbox("0. Casado", cbNivelEstudioPaciente, true);
       add(cb6);
-      cb7 = new Checkbox("0. Casado", cbEstadoCivilPaciente, true);
+      cb7 = new Checkbox("0. Casado", cbNivelEstudioPaciente, true);
       add(cb7);
-      cb8 = new Checkbox("1", cbEstadoCivilPaciente, true);
+      cb8 = new Checkbox("1", cbNivelEstudioPaciente, true);
       add(cb8);
-      cb9 = new Checkbox("2", cbEstadoCivilPaciente, true);
+      cb9 = new Checkbox("2", cbNivelEstudioPaciente, true);
       add(cb9);
-      cb10 = new Checkbox("3", cbEstadoCivilPaciente, true);
+      cb10 = new Checkbox("3", cbNivelEstudioPaciente, true);
       add(cb10);
-      cb11 = new Checkbox("4", cbEstadoCivilPaciente, true);
+      cb11 = new Checkbox("4", cbNivelEstudioPaciente, true);
       add(cb11);
-      cb12 = new Checkbox("5", cbEstadoCivilPaciente, true);
+      cb12 = new Checkbox("5", cbNivelEstudioPaciente, true);
       add(cb12);
-      cb13 = new Checkbox("6", cbEstadoCivilPaciente, true);
+      cb13 = new Checkbox("6", cbNivelEstudioPaciente, true);
       add(cb13);
-      cb14 = new Checkbox("0. Casado", cbEstadoCivilPaciente, true);
+      cb14 = new Checkbox("0. Casado", cbNivelEstudioPaciente, true);
       add(cb14);
-      cb15 = new Checkbox("7", cbEstadoCivilPaciente, true);
+      cb15 = new Checkbox("7", cbNivelEstudioPaciente, true);
       add(cb15);
-      cb16 = new Checkbox("8", cbEstadoCivilPaciente, true);
+      cb16 = new Checkbox("8", cbNivelEstudioPaciente, true);
       add(cb16);
-      cb17 = new Checkbox("9", cbEstadoCivilPaciente, true);
+      cb17 = new Checkbox("9", cbNivelEstudioPaciente, true);
       add(cb17);
-      cb18 = new Checkbox("0. Casado", cbEstadoCivilPaciente, true);
+      cb18 = new Checkbox("0. Casado", cbNivelEstudioPaciente, true);
       add(cb18);
-      cb19 = new Checkbox("0. Casado", cbEstadoCivilPaciente, true);
+      cb19 = new Checkbox("0. Casado", cbNivelEstudioPaciente, true);
       add(cb19);
-      cb20 = new Checkbox("0. Casado", cbEstadoCivilPaciente, true);
+      cb20 = new Checkbox("0. Casado", cbNivelEstudioPaciente, true);
       add(cb20);
-      cb21 = new Checkbox("0. Casado", cbEstadoCivilPaciente, true);
+      cb21 = new Checkbox("0. Casado", cbNivelEstudioPaciente, true);
       add(cb21);
-      cb22 = new Checkbox("10", cbEstadoCivilPaciente, true);
+      cb22 = new Checkbox("10", cbNivelEstudioPaciente, true);
       add(cb22);
-      cb23 = new Checkbox("11", cbEstadoCivilPaciente, true);
+      cb23 = new Checkbox("11", cbNivelEstudioPaciente, true);
       add(cb23);
-      cb24 = new Checkbox("12", cbEstadoCivilPaciente, true);
+      cb24 = new Checkbox("12", cbNivelEstudioPaciente, true);
       add(cb24);
-      cb25 = new Checkbox("0. Casado", cbEstadoCivilPaciente, true);
+      cb25 = new Checkbox("0. Casado", cbNivelEstudioPaciente, true);
       add(cb25);
-      cb26 = new Checkbox("0. Casado", cbEstadoCivilPaciente, true);
+      cb26 = new Checkbox("0. Casado", cbNivelEstudioPaciente, true);
       add(cb26);
-      cb27 = new Checkbox("0. Casado", cbEstadoCivilPaciente, true);
+      cb27 = new Checkbox("0. Casado", cbNivelEstudioPaciente, true);
       add(cb27);
-      cb28 = new Checkbox("0. Casado", cbEstadoCivilPaciente, true);
+      cb28 = new Checkbox("0. Casado", cbNivelEstudioPaciente, true);
       add(cb28);
-      cb29 = new Checkbox("13", cbEstadoCivilPaciente, true);
+      cb29 = new Checkbox("13", cbNivelEstudioPaciente, true);
       add(cb29);
-      cb30 = new Checkbox("14", cbEstadoCivilPaciente, true);
+      cb30 = new Checkbox("14", cbNivelEstudioPaciente, true);
       add(cb30);
-      cb31 = new Checkbox("15", cbEstadoCivilPaciente, true);
+      cb31 = new Checkbox("15", cbNivelEstudioPaciente, true);
       add(cb31);
-      cb32 = new Checkbox("16", cbEstadoCivilPaciente, true);
+      cb32 = new Checkbox("16", cbNivelEstudioPaciente, true);
       add(cb32);
-      cb33 = new Checkbox("17", cbEstadoCivilPaciente, true);
+      cb33 = new Checkbox("17", cbNivelEstudioPaciente, true);
       add(cb33);
-      cb34 = new Checkbox("18", cbEstadoCivilPaciente, true);
+      cb34 = new Checkbox("18", cbNivelEstudioPaciente, true);
       add(cb34);
-      cb35 = new Checkbox("0. Casado", cbEstadoCivilPaciente, true);
-      add(cb35);     
-      cb36 = new Checkbox("19", cbEstadoCivilPaciente, true);
+      cb35 = new Checkbox("0. Casado", cbNivelEstudioPaciente, true);
+      add(cb35);
+      cb36 = new Checkbox("19", cbNivelEstudioPaciente, true);
       add(cb36);
-      cb37 = new Checkbox("20", cbEstadoCivilPaciente, true);
+      cb37 = new Checkbox("20", cbNivelEstudioPaciente, true);
       add(cb37);
-      cb38 = new Checkbox("21", cbEstadoCivilPaciente, true);
+      cb38 = new Checkbox("21", cbNivelEstudioPaciente, true);
       add(cb38);
-      cb39 = new Checkbox("22", cbEstadoCivilPaciente, true);
+      cb39 = new Checkbox("22", cbNivelEstudioPaciente, true);
       add(cb39);
-      cb40 = new Checkbox("23", cbEstadoCivilPaciente, true);
+      cb40 = new Checkbox("23", cbNivelEstudioPaciente, true);
       add(cb40);
-      cb41 = new Checkbox("24", cbEstadoCivilPaciente, true);
+      cb41 = new Checkbox("24", cbNivelEstudioPaciente, true);
       add(cb41);
-      cb42 = new Checkbox(">=25", cbEstadoCivilPaciente, true);
+      cb42 = new Checkbox(">=25", cbNivelEstudioPaciente, true);
       add(cb42);
 
       cb2.setVisible(false);
@@ -146,22 +146,22 @@ public class CBEstudioPaciente extends JPanel{
       cb5.setVisible(false);
       cb6.setVisible(false);
       cb7.setVisible(false);
-      
+
       cb14.setVisible(false);
-      
+
       cb18.setVisible(false);
       cb19.setVisible(false);
       cb20.setVisible(false);
       cb21.setVisible(false);
-      
+
       cb25.setVisible(false);
       cb26.setVisible(false);
       cb27.setVisible(false);
       cb28.setVisible(false);
-      
+
       cb35.setVisible(false);
-      
-      
+
+
     }
 
 }

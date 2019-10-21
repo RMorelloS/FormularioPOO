@@ -12,11 +12,11 @@ public class ReligionPaciente extends JPanel{
     
     ReligionPaciente(){
       setLayout(new GridLayout(5,1));
-      religion = new JLabel("B.15 De qué religión eres usted?");
+      religion = new JLabel("B.15 De que religion eres usted?");
       add(religion);
       cbReligionPaciente = new CheckboxGroup();
       add(new Checkbox("0. Ninguna", cbReligionPaciente, true));
-      add(new Checkbox("1. Católica", cbReligionPaciente, true));
+      add(new Checkbox("1. Catolica", cbReligionPaciente, true));
       add(new Checkbox("2. Budista", cbReligionPaciente, true));
       add(new Checkbox("3. Protestante", cbReligionPaciente, true));
    }

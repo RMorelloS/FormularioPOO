@@ -11,18 +11,14 @@ public class NombrePaciente extends JPanel{
     static JLabel vacio;
 
     NombrePaciente(){
-      setLayout(new GridLayout(2,2));
+      setLayout(new GridLayout(1,2));
       this.setBackground(Color.white);
       nombrePaciente = new JLabel("B.1Nombre:", SwingConstants.CENTER);
       nombrePaciente.setBounds(200,22,150,10);
       add(nombrePaciente);
-      txtNombrePaciente = new JTextField("",3);
-      txtNombrePaciente.setBounds(350,22,120,25);
-      add(txtNombrePaciente);
-      vacio = new JLabel("");
-      add(vacio);
-      PanelNombres panelNombres = new PanelNombres();
-      add(panelNombres);
+      PanelNombresPaciente pNP = new PanelNombresPaciente();
+      add(pNP);
+
 
     }
 

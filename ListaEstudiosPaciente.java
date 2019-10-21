@@ -19,17 +19,17 @@ public class ListaEstudiosPaciente extends JPanel{
     ListaEstudiosPaciente(){
       setLayout(new GridLayout(6,1));
 
-      noEstudio = new JLabel("No estudió", SwingConstants.CENTER);
+      noEstudio = new JLabel("No estudio", SwingConstants.CENTER);
       add(noEstudio);
-      primaria = new JLabel("Primaria en años", SwingConstants.CENTER);
+      primaria = new JLabel("Primaria en anos", SwingConstants.CENTER);
       add(primaria);
-      secundaria = new JLabel("Secundaria en años", SwingConstants.CENTER);
+      secundaria = new JLabel("Secundaria en anos", SwingConstants.CENTER);
       add(secundaria);
-      preparatoria = new JLabel("Preparatoria (técnico) en años", SwingConstants.CENTER);
+      preparatoria = new JLabel("Preparatoria (tecnico) en anos", SwingConstants.CENTER);
       add(preparatoria);
-      licenciatura = new JLabel("Licenciatura en años", SwingConstants.CENTER);
+      licenciatura = new JLabel("Licenciatura en anos", SwingConstants.CENTER);
       add(licenciatura);
-      postgrado = new JLabel("Postgrado en años", SwingConstants.CENTER);
+      postgrado = new JLabel("Postgrado en anos", SwingConstants.CENTER);
       add(postgrado);
     }
 
