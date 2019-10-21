@@ -14,7 +14,7 @@ public class PanelDatosMedico extends JPanel{
 	PanelDatosMedico(){
 
 		setLayout(new GridLayout(3,2));
-		this.setBackground(Color.white);
+		
 		nombreMedico = new JLabel("Nombre del medico y/o nutriologo:", SwingConstants.CENTER);
 		nombreMedico.setBounds(200,22,150,10);
 		add(nombreMedico);

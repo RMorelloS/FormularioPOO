@@ -9,7 +9,7 @@ public class CedulaIdentificacion extends JPanel{
 
     static JLabel cedulaIdentificacion;
     CedulaIdentificacion(){
-
+    	this.setBackground(Color.lightGray);
         cedulaIdentificacion = new JLabel("B Cedula de identificacion del paciente");
         cedulaIdentificacion.setBounds(200,22,300,10);
         add(cedulaIdentificacion);

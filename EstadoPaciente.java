@@ -12,7 +12,6 @@ public class EstadoPaciente extends JPanel{
     static JTextField txtEstado;
     EstadoPaciente(){
       setLayout(new GridLayout(1,2));
-      this.setBackground(Color.white);
       estado = new JLabel("B.9 Cual es tu estado o entidad federativa de origen", SwingConstants.CENTER);
       add(estado);
       txtEstado = new JTextField("",3);

@@ -12,6 +12,7 @@ public class EdadPaciente extends JPanel{
     static JTextField txtEdad;
     static JLabel edad;
     EdadPaciente(){
+      this.setSize(100, 50);
       setLayout(new GridLayout(1,3));
       this.setBackground(Color.white);
       edad = new JLabel("B.4 Edad:", SwingConstants.CENTER);
