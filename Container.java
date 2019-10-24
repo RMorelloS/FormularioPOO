@@ -7,7 +7,7 @@ import javax.swing.JPanel;
 import java.util.ArrayList;
 public class Container extends JPanel {
 	static JButton gravar;
-	
+	static JButton presentar;
 	Container(){
 		setLayout(new BoxLayout(this,BoxLayout.Y_AXIS));
 	    PresentacionEncuestador panelPresentacion = new PresentacionEncuestador();
@@ -41,8 +41,11 @@ public class Container extends JPanel {
 			add(dr1);
 			gravar = new JButton("Gravar datos");
 			add(gravar);
+			presentar = new JButton("Presentar el archivo");
+			add(presentar);
 			MEventosMedidasTC manejador = new MEventosMedidasTC();
 			gravar.addActionListener(manejador);
+			presentar.addActionListener(manejador);
 	}
 
 }

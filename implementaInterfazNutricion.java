@@ -1,3 +1,6 @@
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 import javax.swing.JScrollPane;
 
 public class implementaInterfazNutricion{
