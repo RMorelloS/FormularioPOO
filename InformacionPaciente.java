@@ -3,10 +3,10 @@ public class InformacionPaciente {
 	String apellidoPaternoMedico;
 	String apellidoMaternoMedico;
 	String nombreMedico;
+	String fechaEvaluacionMedico;
 	String apellidoPaternoPaciente;
 	String apellidoMaternoPaciente;
 	String nombrePaciente;
-	String fechaEvaluacionMedico;
 	String sexoPaciente;
 	String fechaNacimientoPaciente;
 	int edadPaciente;

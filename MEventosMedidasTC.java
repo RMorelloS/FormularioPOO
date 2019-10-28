@@ -115,13 +115,13 @@ public class MEventosMedidasTC implements ActionListener, Serializable {
 			return false;
 		}
 		if ((mes == 4 || mes == 6|| mes == 9|| mes == 11) && dia > 30) {
-			JOptionPane.showMessageDialog(null, "El mes " + mes + " no puede tener más de 30 dias.", "Fecha incorecta", JOptionPane.INFORMATION_MESSAGE);
+			JOptionPane.showMessageDialog(null, "El mes " + mes + " no puede tener mas de 30 dias.", "Fecha incorecta", JOptionPane.INFORMATION_MESSAGE);
 			return false;
 		}else if ((mes == 1 || mes == 3 || mes == 5 || mes == 7 || mes == 8 || mes == 10 || mes == 12) && dia > 31) {
-			JOptionPane.showMessageDialog(null, "El mes " + mes + " no puede tener más de 31 dias.", "Fecha incorecta", JOptionPane.INFORMATION_MESSAGE);
+			JOptionPane.showMessageDialog(null, "El mes " + mes + " no puede tener mas de 31 dias.", "Fecha incorecta", JOptionPane.INFORMATION_MESSAGE);
 			return false;
 		}else if (mes == 2 && dia > 28) {
-			JOptionPane.showMessageDialog(null, "El mes " + mes + " no puede tener más de 28 dias.", "Fecha incorecta", JOptionPane.INFORMATION_MESSAGE);
+			JOptionPane.showMessageDialog(null, "El mes " + mes + " no puede tener mas de 28 dias.", "Fecha incorecta", JOptionPane.INFORMATION_MESSAGE);
 			return false;
 		}
 		Date date = new Date();
